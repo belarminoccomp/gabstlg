@@ -5,6 +5,7 @@ Este repositório agora funciona como uma apresentação curta sobre quem eu sou
 ## Conteúdo principal
 
 - `Myself.md`: texto de apresentação pessoal e posicionamento profissional
+- `exercicios/javascript`: codigos recentes de exercicios em JavaScript
 
 ## Objetivo
 
