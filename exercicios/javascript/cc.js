@@ -1,6 +1,6 @@
- const prompt = require('prompt-sync')(); 
+const { lerNumero } = require('./entrada'); 
  
-let num = Number(prompt("Digite um número (0 para encerrar):"));
+let num = lerNumero("Digite um número (0 para encerrar):");
 
 if (num === 0) {
     console.log("Nenhum número foi digitado.");
@@ -11,7 +11,7 @@ if (num === 0) {
         qtd++;
         if (num > maior) maior = num;
         if (num < menor) menor = num;
-        num = Number(prompt("Digite um número (0 para encerrar):"));
+        num = lerNumero("Digite um número (0 para encerrar):");
     }
     console.log("Soma:   " + soma.toFixed(2));
     console.log("Qtd:    " + qtd);

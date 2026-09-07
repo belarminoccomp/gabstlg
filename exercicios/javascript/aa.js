@@ -1,10 +1,14 @@
-const prompt = require('prompt-sync')();
+const { lerNumero } = require('./entrada');
 
 let secreto = Math.floor(Math.random() * 20) + 1;
 let tentativas = 0, acertou = false, palpite;
 
 do {
-    palpite = Number(prompt("Tentativa " + (tentativas + 1) + " — Adivinhe (1-20):"));
+    palpite = lerNumero("Tentativa " + (tentativas + 1) + " — Adivinhe (1-20):");
+    if (!Number.isInteger(palpite) || palpite < 1 || palpite > 20) {
+        console.log("Digite um inteiro entre 1 e 20. Esta entrada não conta como tentativa.");
+        continue;
+    }
     tentativas++;
     if (palpite === secreto) {
         acertou = true;

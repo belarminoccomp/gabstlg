@@ -1,8 +1,8 @@
-const prompt = require('prompt-sync')();
+const { lerNumero } = require('./entrada');
 
-let a0 = Number(prompt("Linha 1, Col 1: ")), a1 = Number(prompt("Linha 1, Col 2: ")), a2 = Number(prompt("Linha 1, Col 3: "));
-let a3 = Number(prompt("Linha 2, Col 1: ")), a4 = Number(prompt("Linha 2, Col 2: ")), a5 = Number(prompt("Linha 2, Col 3: "));
-let a6 = Number(prompt("Linha 3, Col 1: ")), a7 = Number(prompt("Linha 3, Col 2: ")), a8 = Number(prompt("Linha 3, Col 3: "));
+let a0 = lerNumero("Linha 1, Col 1: "), a1 = lerNumero("Linha 1, Col 2: "), a2 = lerNumero("Linha 1, Col 3: ");
+let a3 = lerNumero("Linha 2, Col 1: "), a4 = lerNumero("Linha 2, Col 2: "), a5 = lerNumero("Linha 2, Col 3: ");
+let a6 = lerNumero("Linha 3, Col 1: "), a7 = lerNumero("Linha 3, Col 2: "), a8 = lerNumero("Linha 3, Col 3: ");
 
 let L1 = a0+a1+a2, L2 = a3+a4+a5, L3 = a6+a7+a8;
 let C1 = a0+a3+a6, C2 = a1+a4+a7, C3 = a2+a5+a8;

@@ -1,9 +1,9 @@
- // ── VERSÃO while ────────────────────────────────
- const prompt = require('prompt-sync')(); 
-let num1 = Number(prompt("Digite um número positivo (<=0 para parar) [while]:"));
+// Soma de positivos com while.
+ const { lerNumero } = require('./entrada'); 
+let num1 = lerNumero("Digite um número positivo (<=0 para parar) [while]:");
 let soma1 = 0;
 while (num1 > 0) {
     soma1 += num1;
-    num1 = Number(prompt("Próximo número:"));
+    num1 = lerNumero("Próximo número:");
 }
 console.log("Soma (while): " + soma1);

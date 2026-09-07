@@ -5,7 +5,7 @@ Este repositório agora funciona como uma apresentação curta sobre quem eu sou
 ## Conteúdo principal
 
 - `Myself.md`: texto de apresentação pessoal e posicionamento profissional
-- `exercicios/javascript`: codigos recentes de exercicios em JavaScript
+- `exercicios/javascript`: códigos recentes de exercícios em JavaScript
 
 ## Objetivo
 
@@ -13,5 +13,10 @@ Organizar uma introdução mais atualizada sobre minha trajetória e conectar es
 
 ## Referências
 
-- GitHub: [@gabsaatechlab](https://github.com/gabsaatechlab)
-- Portfólio: [trote-solidario-2026](https://github.com/gabsaatechlab/trote-solidario-2026)
+- GitHub: [@belarminoccomp](https://github.com/belarminoccomp)
+- Portfólio: [trote-solidario-2026](https://github.com/belarminoccomp/trote-solidario-2026)
+
+## Estudos recentes
+
+- [JavaScript: vetores, matrizes e repetição](https://github.com/belarminoccomp/Exerc-cios-JavaScript)
+- [Portugol: estatística de temperaturas](exercicios/portugol/README.md)
